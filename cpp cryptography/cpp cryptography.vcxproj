@@ -65,12 +65,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="sha1.h" />
+    <ClInclude Include="sha2.h" />
     <ClInclude Include="sha256.h" />
     <ClInclude Include="sha384.h" />
     <ClInclude Include="sha512.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="sha1.cpp" />
+    <ClCompile Include="sha2.cpp" />
     <ClCompile Include="sha256.cpp" />
     <ClCompile Include="sha384.cpp" />
     <ClCompile Include="sha512.cpp" />
