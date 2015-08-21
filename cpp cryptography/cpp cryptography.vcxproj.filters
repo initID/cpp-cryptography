@@ -24,12 +24,6 @@
     <ClInclude Include="sha512.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="sha2.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="sha1.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">
@@ -42,12 +36,6 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="sha512.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="sha2.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="sha1.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
